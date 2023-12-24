@@ -1,0 +1,705 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Nguyen Thi A",
+      "email": "nguyenthia@gmail.com",
+      "password": "nguyenthia",
+      "token": "bkP9VQydMBRmw67obqD7"
+    },
+    {
+      "fullName": "Nguyễn Thị B",
+      "email": "nguyenthib@gmail.com",
+      "password": "nguyenthib",
+      "token": "ELrgYnXR44rc1C6JGi59",
+      "id": 2
+    },
+    {
+      "fullName": "Nguyễn Thị C",
+      "email": "nguyenthic@gmail.com",
+      "password": "nguyenthic",
+      "token": "KNul87JTgsupUGAuH9UW",
+      "id": 3
+    },
+    {
+      "fullName": "Nguyễn Thị V",
+      "email": "nguyenthiv@gmail.com",
+      "password": "nguyenthiv",
+      "token": "Cc2r2egWMwKsgbJBufUx",
+      "id": 4
+    },
+    {
+      "fullName": "Tran Thi A",
+      "email": "tranthia@gmail.com",
+      "password": "tranthia",
+      "token": "1Gt63mRYbNvRPv0lxfEd",
+      "id": 5
+    },
+    {
+      "fullName": "tranthib",
+      "email": "tranthib@gmail.com",
+      "password": "tranthib",
+      "token": "vc8EsLjoe655UmpCeNg1",
+      "id": 6
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "HTML5"
+    },
+    {
+      "id": 2,
+      "name": "CSS3"
+    },
+    {
+      "id": 3,
+      "name": "javascript"
+    },
+    {
+      "id": 4,
+      "name": "ReactJs"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "topicId": 1,
+      "question": "HTML là viết tắt của ...?",
+      "answers": [
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Markup Language"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "topicId": 1,
+      "question": "Ai là người đầu tiên đưa ra các tiêu chuẩn Web",
+      "answers": [
+        "Tổ chức World Wide Web Consortium (W3C)",
+        "Apple",
+        "Google",
+        "Microsoft"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "topicId": 1,
+      "question": "Chọn thẻ HTML đúng nhất cho định dạng tiêu đề lớn nhất?",
+      "answers": [
+        "<h6>",
+        "<h1>",
+        "<head>",
+        "<heading>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "topicId": 1,
+      "question": "Thẻ nào dùng để xuống dòng trong HTML?",
+      "answers": [
+        "<enter>",
+        "<br>",
+        "<break>",
+        "<lb>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "topicId": 1,
+      "question": "Chọn thẻ HTML chính xác dùng để xác định văn bản quan trọng?",
+      "answers": [
+        "<important>",
+        "<strong>",
+        "<b>",
+        "<i>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "topicId": 1,
+      "question": "Chọn thẻ HTML được dùng nhấn mạnh nội dung văn bản",
+      "answers": [
+        "<i>",
+        "<em>",
+        "<italic>",
+        "<b>"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 7,
+      "topicId": 1,
+      "question": "Mã HTML chính xác để tạo liên kết là...",
+      "answers": [
+        "<a name='http://daca.vn' >Daca.vn</a>",
+        "<a href='http://daca.vn' >Daca.vn</a>",
+        "<a url='http://daca.vn' >Daca.vn</a>",
+        "<a>Daca.vn</a>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "topicId": 1,
+      "question": "Ký hiệu nào được dùng để biểu thị cho 1 thẻ đóng",
+      "answers": [
+        "\\",
+        "/",
+        "^",
+        "*"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "topicId": 1,
+      "question": "Mã HTML nào bạn sẽ dùng khi muốn mở link trên 1 tab hoặc cửa sổ mới?",
+      "answers": [
+        "<a href='https://daca.vn' target='new'>Daca.vn</a>",
+        "<a href='https://daca.vn' new>Daca.vn</a>",
+        "<a href='https://daca.vn' target='_blank'>Daca.vn</a>",
+        "<a href='https://daca.vn' blank>Daca.vn</a>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 10,
+      "topicId": 1,
+      "question": "Những thẻ HTML nào dùng để định nghĩa cấu trúc của bảng?",
+      "answers": [
+        "<table>, <thead>, <tbody>, <tr>, <tt>",
+        "<table>, <thead>, <tbody>, <tr>, <td>",
+        "<table>, <head>, <tfoot>, <tr> <td>",
+        "<thead>, <thead>, <body>, <tr>, <td>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "topicId": 1,
+      "question": "Các thẻ HTML có thể viết liền nhau mà không cần bắt buộc xuồng dòng mới?",
+      "answers": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "topicId": 1,
+      "question": "Để tạo một danh sách có dấu đầu dòng, bạn dùng thẻ HTML nào?",
+      "answers": [
+        "<ul>",
+        "<list>",
+        "<lt>",
+        "ol"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "topicId": 1,
+      "question": "Để tạo 1 danh sách đánh số, bạn dùng phần tử HTML nào ?",
+      "answers": [
+        "<ul>",
+        "<list>",
+        "<lt>",
+        "<ol>"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 14,
+      "topicId": 1,
+      "question": "Thẻ HTML nào tạo ra 1 hộp kiểm(checkbox)",
+      "answers": [
+        "<check>",
+        "<checkbox>",
+        "<input type='checkbox' />",
+        "<input type='check' />"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 15,
+      "topicId": 1,
+      "question": "Thẻ HTML nào tạo ra một ô nhập dữ liệu văn bản ?",
+      "answers": [
+        "<input type='textfield' />",
+        "<input type='text' />",
+        "<textinput type='text' />",
+        "<textfield />"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 16,
+      "topicId": 1,
+      "question": "Thẻ HTML nào tạo ra một danh sách thả xuống (drop-down list)?",
+      "answers": [
+        "<input type='list'>",
+        "<input type='dropdown'>",
+        "<select>",
+        "<list>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 17,
+      "topicId": 1,
+      "question": "Thẻ HTML nào tạo ra một ô nhập dữ liệu với nhiều dòng?",
+      "answers": [
+        "<input type='textarea'>",
+        "<textarea> </textarea>",
+        "<input type='textbox'>",
+        "<textbox> </textbox>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "topicId": 1,
+      "question": "Thẻ HTML nào dùng để chèn một hình ảnh?",
+      "answers": [
+        "<image src='image.gif' alt='Ánh đẹp'>",
+        "<img href='image.gif' alt='Ảnh đẹp'>",
+        "<img src='image.gif' alt='Ånh đẹp'>",
+        "<img alt='Ánh đẹp'>image.gif</img>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 19,
+      "topicId": 1,
+      "question": "Thẻ <iframe> được sử dụng để hiển thị một trang trong một trang web?",
+      "answers": [
+        "Đúng",
+        "Sai",
+        "Không có thẻ <iframe>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "topicId": 1,
+      "question": "Các chú thích trong HTML sẽ bắt đầu bằng <!-- và kết thúc bằng -->",
+      "answers": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "topicId": 2,
+      "question": "CSS là viết tắt của chữ gì",
+      "answers": [
+        "Cascading Style Sheets",
+        "container style sheets",
+        "Cascading set style",
+        "create style sheet"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "topicId": 3,
+      "question": "Javascript là gì?",
+      "answers": [
+        "Javascript là ngôn ngữ lập trình phổ biến nhất thế giới",
+        "Javascript là ngôn ngữ lập trình dùng để lập trình di động"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "topicId": 4,
+      "question": "ReactJS là gì?",
+      "answers": [
+        "ReactJS là thư viện javascript dùng để xây dựng giao diện người dùng",
+        "ReactJS là ngôn ngữ lập trình dùng để lập trình web",
+        "ReactJS là thư viện html dùng để xây dựng giao diện người dùng",
+        "ReactJS là ngôn ngữ lập trình dùng để xây dựng giao diện người dùng"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "answers": [
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 2
+        },
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 3
+        },
+        {
+          "questionId": 5,
+          "answer": 0
+        },
+        {
+          "questionId": 6,
+          "answer": 0
+        },
+        {
+          "questionId": 7,
+          "answer": 0
+        },
+        {
+          "questionId": 8,
+          "answer": 0
+        },
+        {
+          "questionId": 9,
+          "answer": 0
+        },
+        {
+          "questionId": 10,
+          "answer": 0
+        },
+        {
+          "questionId": 11,
+          "answer": 0
+        },
+        {
+          "questionId": 12,
+          "answer": 0
+        },
+        {
+          "questionId": 13,
+          "answer": 0
+        },
+        {
+          "questionId": 14,
+          "answer": 0
+        },
+        {
+          "questionId": 15,
+          "answer": 0
+        },
+        {
+          "questionId": 16,
+          "answer": 0
+        },
+        {
+          "questionId": 17,
+          "answer": 0
+        },
+        {
+          "questionId": 18,
+          "answer": 0
+        },
+        {
+          "questionId": 19,
+          "answer": 0
+        },
+        {
+          "questionId": 20,
+          "answer": 0
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 2
+        },
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        },
+        {
+          "questionId": 6,
+          "answer": 3
+        },
+        {
+          "questionId": 7,
+          "answer": 3
+        },
+        {
+          "questionId": 8,
+          "answer": 0
+        },
+        {
+          "questionId": 9,
+          "answer": 2
+        },
+        {
+          "questionId": 10,
+          "answer": 3
+        },
+        {
+          "questionId": 11,
+          "answer": 0
+        },
+        {
+          "questionId": 12,
+          "answer": 2
+        },
+        {
+          "questionId": 13,
+          "answer": 0
+        },
+        {
+          "questionId": 14,
+          "answer": 2
+        },
+        {
+          "questionId": 15,
+          "answer": 1
+        },
+        {
+          "questionId": 16,
+          "answer": 0
+        },
+        {
+          "questionId": 17,
+          "answer": 0
+        },
+        {
+          "questionId": 18,
+          "answer": 1
+        },
+        {
+          "questionId": 19,
+          "answer": 0
+        },
+        {
+          "questionId": 20,
+          "answer": 0
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 2
+        },
+        {
+          "questionId": 6,
+          "answer": 3
+        },
+        {
+          "questionId": 7,
+          "answer": 1
+        },
+        {
+          "questionId": 8,
+          "answer": 1
+        },
+        {
+          "questionId": 9,
+          "answer": 0
+        },
+        {
+          "questionId": 10,
+          "answer": 1
+        },
+        {
+          "questionId": 11,
+          "answer": 0
+        },
+        {
+          "questionId": 12,
+          "answer": 0
+        },
+        {
+          "questionId": 13,
+          "answer": 3
+        },
+        {
+          "questionId": 14,
+          "answer": 2
+        },
+        {
+          "questionId": 15,
+          "answer": 1
+        },
+        {
+          "questionId": 16,
+          "answer": 2
+        },
+        {
+          "questionId": 17,
+          "answer": 1
+        },
+        {
+          "questionId": 18,
+          "answer": 1
+        },
+        {
+          "questionId": 19,
+          "answer": 0
+        },
+        {
+          "questionId": 20,
+          "answer": 0
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        }
+      ],
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 2
+        },
+        {
+          "questionId": 2,
+          "answer": 2
+        },
+        {
+          "questionId": 3,
+          "answer": 2
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        }
+      ],
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 2
+        },
+        {
+          "questionId": 3,
+          "answer": 3
+        },
+        {
+          "questionId": 4,
+          "answer": 2
+        },
+        {
+          "questionId": 5,
+          "answer": 0
+        },
+        {
+          "questionId": 6,
+          "answer": 3
+        },
+        {
+          "questionId": 7,
+          "answer": 3
+        }
+      ],
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 3,
+          "answer": 3
+        },
+        {
+          "questionId": 4,
+          "answer": 3
+        },
+        {
+          "questionId": 5,
+          "answer": 3
+        },
+        {
+          "questionId": 6,
+          "answer": 2
+        },
+        {
+          "questionId": 7,
+          "answer": 1
+        },
+        {
+          "questionId": 9,
+          "answer": 3
+        },
+        {
+          "questionId": 10,
+          "answer": 3
+        },
+        {
+          "questionId": 13,
+          "answer": 1
+        },
+        {
+          "questionId": 14,
+          "answer": 3
+        },
+        {
+          "questionId": 16,
+          "answer": 0
+        }
+      ],
+      "id": 7
+    }
+  ]
+}
